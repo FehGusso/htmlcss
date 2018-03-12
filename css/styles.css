@@ -1,0 +1,19 @@
+        /*seletor de elemento*/
+        
+        
+         p{
+            color: blue;
+            text-align: center;
+        }
+
+
+      /*seletor de ID*/
+      #meuParagrafo {
+          color: lime;
+      }
+
+         /*seletor de classe*/
+         .destaque {
+            color: orangered;
+        }
+    
