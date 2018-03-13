@@ -16,4 +16,49 @@
          .destaque {
             color: orangered;
         }
+
+    img {
+        width: 20%;
+        height: 20%;
+
+    }
+    /*= significa */
+    /*procura o que termina entre aspas" */
+[type="button"]{
+ color:blue;
+}
+    /*^ significa */
+    /*procura o que inicia entre aspas*/
+     [class^="btn"] {
+           border: 1px solid greenyellow;
+     }
+
+     /*$ significa */
+     /*procura o que termina entre aspas" */
+     [class$="primary"] {
+        border: 1px solid darkred;
+     }
+     /** significa */
+     /*procura o que esta em aspas em qualquer lugar" */
+        [class*="primary"] {
+                border: 10px solid aquamarine ;
+     
+    }  
+    li {
+        list-style-image: url("http://www.hindighoststory.com/2017/09/5-top-5-cursed-movies.html")
+    }
+
+    tr:nth-child(even) { background-color: green; }
+     
+
+
+     
+
+
+    
+    
+
+
+
+
     
